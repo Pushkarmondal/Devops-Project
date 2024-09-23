@@ -11,7 +11,7 @@
 #   # This sets the pull policy for images.
 #   pullPolicy: IfNotPresent
 #   # Overrides the image tag whose default is the chart appVersion.
-#   tag: ""
+#   tag: "10999766339"
 
 # # This is for the secretes for pulling an image from a private repository more information can be found here: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
 # imagePullSecrets: []
@@ -128,7 +128,7 @@ image:
   repository: nishit7908/currency-converter
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "02"
+  tag: "10999766339"
 
 ingress:
   enabled: false
